@@ -1,0 +1,54 @@
+h1 {
+    color: orange;
+}
+/* .list li:last-child a{
+    color:orange;
+}
+.list li:nth-child(2) a{
+    color: orangered;
+} */
+.list {
+    list-style: none;
+}
+
+.list a:hover {
+    color: #000;
+}
+.list li:not(.not-exmpl) a {
+    color: red;
+}
+.list li::after {
+    content: 'text';
+}
+.list li::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    margin-right: 10px;
+}
+mark {
+    background-color: aqua;
+    font-size: 24px;
+}
+p mark {
+    background-color: burlywood;
+}
+.text {
+text-transform: uppercase;
+color: grey;
+font-weight: bold;
+}
+.text-large {
+    width: 700px;
+}
+.text-small {
+    width: 300px;
+}
+p {
+    color: chartreuse;
+}
+#text {
+color: crimson;
+}
